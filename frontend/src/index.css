@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-main;
+}
+.navlinks {
+  @apply text-buttonText text-lg font-semibold cursor-pointer;
+}
